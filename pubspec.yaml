@@ -1,0 +1,24 @@
+name: catalogo_senati
+description: Catálogo educativo de componentes tecnológicos para SENATI.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.0
+  flutter: '>=3.47.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # Fuente que utiliza Flutter en sus controles con apariencia de iOS.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  # Flutter empaqueta la fuente de los íconos Icons.* con la aplicación.
+  uses-material-design: true
